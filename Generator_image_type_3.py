@@ -26,7 +26,7 @@ def image_type_3(num_imgs):
         width=random.randint(45,50)
         height=random.randint(25,35)
         
-        # selvtion of fonts
+        # selection of fonts
         font_glossar=['seguisym.ttf','osifont.ttf','isocpeui.ttf', 'verdana.ttf', 'ARIALNB.ttf','cambria.ttc','unifont-14.0.02.ttf']
         font_glossar_choice=random.choice(font_glossar)
                     
