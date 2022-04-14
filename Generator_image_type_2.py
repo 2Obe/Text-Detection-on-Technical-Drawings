@@ -61,7 +61,7 @@ def image_type_2(num_imgs,annotation=True):
         while i < num_elements:
            
                 
-            element_choice = random.randint(0,194)
+            element_choice = random.randint(0,len(Images))
             element_location = (random.randint(0,img_x),random.randint(0,img_y))
             element = Image.open(Images[element_choice]) 
         
